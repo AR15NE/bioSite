@@ -1,6 +1,189 @@
-
 /*
   Author: Amanda Rovey
-  Date: February 16 2024
+  Date: February 16, 2024
   File Name: Assignment 6.2 - bioSite Project
 */
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, h3, ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Style rules for body and images */
+body {
+  background-color: #F6EAF4;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Style rules for header area */
+header {
+  text-align: center;
+}
+
+header h1,
+header h3 {
+  padding: 2%;
+  font-family: 'Emblema One', system-ui;
+}
+
+header img {
+  margin: auto;
+}
+
+/* Style rules for navigation area */
+nav {
+  background-color: #9F5994;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav li {
+  border-top: 0.5px solid #F6EAF4;
+  display: block;
+  font-size: 1.5em;
+  font-family: Geneva, Arial, sans-serif;
+  font-weight: bold;
+}
+
+nav li a {
+  display: block;
+  color: #F6EAF4;
+  text-align: center;
+  padding: 0.5em 2em;
+  text-decoration: none;
+}
+
+/* Style rules for main content */
+main {
+  padding: 2%;
+  font-family: 'Lora', serif;
+  overflow: hidden;
+}
+
+main p {
+  font-size: 1.25em;
+}
+
+/* Style rules for footer content */
+footer {
+  font-size: 0.85em;
+  text-align: center;
+  background-color: #9F5994;
+  color: #F6EAF4;
+  padding: 1% 0%;
+}
+
+footer a {
+  color: #9F5994;
+  text-decoration: none;
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 620px), print {
+  header h1,
+  header h3 {
+    padding: 2%;
+    text-align: center;
+    font-family: 'Emblema One', system-ui;
+  }
+
+  .mobile,
+  .tablet-desktop {
+    display: none;
+  }
+
+  .tab-desk {
+    display: block;
+  }
+
+  nav li {
+    border-top: none;
+    display: inline-block;
+    font-size: 1.25em;
+  }
+
+  nav li a {
+    padding: 0.5em;
+  }
+}
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 1000px), print {
+  nav li {
+    font-size: 1.5em;
+  }
+
+  nav li a {
+    padding: 0.5em 1.5em;
+  }
+
+  nav li a:hover {
+    color: #2a1f14;
+    background-color: #F6EAF4;
+  }
+}
+
+/* Media Query for Large Desktop Viewports */
+@media screen and (min-width: 1921px) {
+  body {
+    background: linear-gradient(to right, #F6EAF4, #78593a);
+  }
+
+  main {
+    background-color: #F6EAF4;
+  }
+}
+
+/* Media Query for Print */
+@media print {
+  body {
+    background-color: #fff;
+    color: #000;
+  }
+}
+
+/* Rules for the hero image */
+#hero {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#hero img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* Styles for the image section */
+.image-section {
+  overflow: hidden;
+  background-color: #9F5994;
+}
+
+.image-section img {
+  width: 48%;
+  margin: 1%;
+  float: left;
+}
+
+main p {
+  font-size: 1.25em;
+  margin-bottom: 20px;
+}
+
+/* Media Query for Mobile Viewport */
+@media screen and (max-width: 680px) {
+  .image-section img {
+    width: 99%;
+    float: none;
+    margin: 0;
+  }
