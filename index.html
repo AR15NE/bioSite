@@ -1,83 +1,87 @@
 <!DOCTYPE html>
 <!--
   Author: Amanda Rovey
-  Date: February 16 2024
-  File Name: Assignment 6.2 - bioSite Project
+  File Name: Assignment 9.2 - bioSite Project Delivery
+  Date: March 6 2024
 -->
 <html lang="en">
 
 <head>
-  <meta charset= "utf-8">
+  <meta charset="utf-8">
   <link rel="stylesheet" href="CSS/styles.css">
   <title>bioSite: Index</title>
 </head>
 
 <body>
 
-<div id="wrapper">
+  <div id="wrapper">
 
-  <!--Use the header area for the website name or logo -->
-   <header>
-    <div class="tab-desk"></div>
+    <!--Use the header area for the website name or logo -->
+    <header>
+      <div class="tab-desk"></div>
 
-    <div class="mobile">
-
-      <h1>Zoey Rovey</h1>
-      <h3>Bringing Sunshine into Every Moment</h3>
-
-    </div>
-
-        <!-- Hero image section for the homepage -->
-      <div>
-        <section id="hero">
-          <img src="images/zoey-hero.png" alt="Hero Image">
-        </section>
+      <div class="mobile">
+        <h1>Zoey Rovey</h1>
+        <h3>Bringing Sunshine into Every Moment</h3>
       </div>
 
+      <!-- Hero image section for the homepage -->
+      <div id="hero">
+        <video autoplay muted loop>
+          <source src="media/herovideo.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
     </header>
 
-  <!--Use the nav area to add hyperlinks to other pages within the website-->
-  <nav>
-    <ul>
-     <li><a href="index.html">Home</a></li>
-     <li><a href="about.html">About</a></li>
-     <li><a href="hobby.html">Hobby</a></li>
-    </ul>
-  </nav>
+    <!--Use the nav area to add hyperlinks to other pages within the website-->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="hobby.html">Hobby</a></li>
+      </ul>
+    </nav>
 
-  <!--Use the main area to add the main content of the webpage-->
-  <main>
+    <!--Use the main area to add the main content of the webpage-->
+    <main>
 
-    <div class="row">
+      <!-- Main content with two rows and two columns -->
+      <div class="row">
+        <div class="column">
+          <h2>Meet Zoey</h2>
+          <p> Zoey is an energetic, spunky, and creative 5-year-old. She is often described by others as full of life and energy. She has a genuine love for learning and a desire to do things well. As a child with ADHD, Zoey has learned how to embrace who she is while still trying to do her best and care for others. So far in her short life, Zoey has accomplished many things. In 2019, she earned the title of best big sister when her younger sister Zaylee was born. She graduated preschool and began kindergarten in the fall of 2023. She has earned the title of star student for her efforts in class and her kind relationships with her fellow classmates. </p>
+        </div>
 
-      <div class="column1">
-
-      <p>Zoey is an energetic, spunky, and creative 5-year-old. She is often described by others as full of life and energy. She has a genuine love for learning and a desire to do things well. As a child with ADHD, Zoey has learned how to embrace who she is while still trying to do her best and care for others. </p>
-
-      <p>So far in her short life, Zoey has accomplished many things. In 2019, she earned the title of best big sister when her younger sister Zaylee was born. She graduated preschool and began kindergarten in the fall of 2023. She has earned the title of star student for her efforts in class and her kind relationships with her fellow classmates. As a child with ADHD, Zoey has worked hard to learn more about herself and how to lean into her strengths while also trying her best and thinking of those around her. In January, she was able to read her first book from start to finish without needing a helper. She is also an accomplished artist with an entire showroom of paintings and creations.</p>
-
-      <p>Zoey has many aspirations for the future. In term of long-term goals, she is currently undecided between a career choice of veterinarian or monster truck driver. She is looking forward to a princess wedding and being a mom. In the next year, Zoey hopes to graduate kindergarten and enter first grade. She also aspires to be the fastest soccer player on her team come the 2024 spring season. </p>
-
+        <div class="column">
+          <img src="images/zoeyhome2.jpeg" alt="Professional picture of Zoey at 5 years old">
+        </div>
       </div>
 
-    </div>
+      <div class="row">
+        <div class="column">
+          <img src="images/zoeyhome.jpeg" alt="Zoey on her 5th birthday">
+        </div>
 
-<!-- Added a new div for the image section -->
-<div class="image-section">
-  <img src="images/zoey-home.jpeg" alt="First Image">
-  <img src="images/soccer.jpg" alt="Second Image">
-</div>
+        <div class="column">
+          <p>Zoey has worked hard to learn more about herself and how to lean into her strengths while also trying her best and thinking of those around her. In January, she was able to read her first book from start to finish without needing a helper. She is also an accomplished artist with an entire showroom of paintings and creations. Zoey has many aspirations for the future. In terms of long-term goals, she is currently undecided between a career choice of a veterinarian or monster truck driver. She is looking forward to a princess wedding and being a mom. In the next year, Zoey hopes to graduate kindergarten and enter first grade. She also aspires to be the fastest soccer player on her team come the 2024 spring season.</p>
+        
+          <div class="quote-box">
+            <p class="quote-text">"If I could be a different person, I'd be a cat. Cats don't have to do chores."</p>
+            <p class="quote-author">- Zoey Rovey</p>
+          </div>
+        </div>
+      </div>
+    </main>
 
+    <!--Use the footer area to add webpage footer content-->
+    <footer>
+      <p>"Rejoice in the Lord always" Phillippians 4:4</p>
+      <p>&copy;USA 2024</p>
+    </footer>
 
-  </main>
-
-  <!--Use the footer area to add webpage footer content-->
-  <footer>
-    <p>"Rejoice in the Lord always" Phillippians 4:4</p>
-    <p>&copy;USA 2024</p>
-  </footer>
-
-</div>
+  </div>
 
 </body>
+
 </html>
